@@ -7,6 +7,7 @@
  * @node1: node that follows *node or comes before it.
  * Return: nothing.
 */
+
 void switch_nodes(listint_t **head, listint_t *node, listint_t *node1)
 {
 	listint_t *anchor;
