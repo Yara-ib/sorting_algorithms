@@ -37,7 +37,7 @@ void quick_sorting(int *array, int lower_bound, int upper_bound, size_t size)
 }
 
 /**
- * conquer_n_divide - divides and sort in place the array in the sub-arrays.
+ * conquer_divide - divides and sort in place the array in the sub-arrays.
  * @array: array of unsorted integers.
  * @lower_bound: the index of the smallest integer.
  * @upper_bound: the index of the largest to be integer.
