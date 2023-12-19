@@ -30,7 +30,7 @@ void quick_sorting(int *array, int lower_bound, int upper_bound, size_t size)
 
 	if (lower_bound < upper_bound)
 	{
-		pivot = conquer_divide(array, lower_bound, upper_bound, size);
+		pivot = divide_conquer(array, lower_bound, upper_bound, size);
 		quick_sorting(array, lower_bound, pivot - 1, size);
 		quick_sorting(array, pivot + 1, upper_bound, size);
 	}
@@ -45,7 +45,7 @@ void quick_sorting(int *array, int lower_bound, int upper_bound, size_t size)
  * Return: the pivot's index.
 */
 
-int conquer_divide(int *array, int lower_bound, int upper_bound, size_t size)
+int divide_conquer(int *array, int lower_bound, int upper_bound, size_t size)
 {
 	int backward_idx, forward_idx, temp_value, pivot;
 
