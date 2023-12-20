@@ -26,7 +26,7 @@ void selection_sort(int *array, size_t size);
 void shell_sort(int *array, size_t size);
 
 void quick_sort(int *array, size_t size);
-int divide_conquer(int *array, int lower_bound, int upper_bound, size_t size);
+int conquer_divide(int *array, int lower_bound, int upper_bound, size_t size);
 void quick_sorting(int *array, int lower_bound, int upper_bound, size_t size);
 
 void cocktail_sort_list(listint_t **head);
